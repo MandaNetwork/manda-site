@@ -80,12 +80,3 @@ POST-only endpoint that isn't meaningful to GET/HEAD-check as a regular link.
 To change which Formspree form it submits to, update the `action` attribute on
 `#contact-form` in `index.html` (search for `formspree.io/f/`) with the ID from your
 Formspree dashboard.
-
-## Known issue carried over from the source export
-
-The original export has the **Nihel Zaied** and **Ismail Khlifi** team photos swapped
-(the file that renders under Nihel's name is captioned `ismail` in the original asset
-names, and vice versa). This revision preserves the original visual output as-is
-(`assets/img/team-nihel-zaied.jpg` / `assets/img/team-ismail-khlifi.jpg` are named for
-who they *display as*) — worth double-checking with the team on which photo is
-actually correct.
